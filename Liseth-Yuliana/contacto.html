@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tout Care</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Menú {
+            display: flex;
+            padding: 10px;
+            background-color: lavenderblush;
+            width: 100%;
+            justify-content: center;
+
+        }
+
+        .opciones {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            align-items: center;
+            margin-left: 30px;
+            justify-content: space-between
+        }
+
+        .contenedor {
+            display: flex;
+            background-color: pink;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+
+
+        }
+
+        .contenedorlogo {
+            margin-top: 30;
+        }
+
+        .logo {
+            height: 250px;
+            width: 250px;
+
+        }
+
+        .Imagen {
+            height: 50px;
+            width: 50px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .formulariocontenedor {
+            background-color: white;
+            display: flex;
+            margin-top: 20px;
+            width: 400px;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+        .formulario{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .label{
+        margin-top: 10px; 
+        margin-bottom: 5px;
+        }
+        .boton{
+        margin-top: 10px; 
+        margin-bottom: 5px;
+        padding: 5px;
+        }   
+        .input{
+        line-height: 30px;
+        }   
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <ul class="Menú">
+            <li class="opciones">
+                <a href="./INICIO.html"><img class="Imagen" src="./Imagenes/inicio.png" alt="INICIO"></a>
+                <p>INICIO</p>
+            </li>
+
+            <li class="opciones">
+                <a href="./Nosotros.html"><img class="Imagen" src="./Imagenes/nosotros.png" alt="logo"></a>
+                <p>¿QUIENES SOMOS?</p>
+            </li>
+
+            <li class="opciones">
+                <a href="./Producto.html"><img class="Imagen" src="./Imagenes/producto.png" alt="logo"></a>
+                <p>PRODUCTOS</p>
+            </li>
+
+            <li class="opciones">
+                <a href="./contacto.html"><img class="Imagen" src="./Imagenes/contacto.jpg" alt="logo"></a>
+                <p>CONTACTO</p>
+            </li>
+            <li class="opciones">
+                <a href="https://www.unicartagena.edu.co/"><img class="Imagen" src="./Imagenes/UdC.png" alt="logo"></a>
+                <p>UNIVERSIDAD DE CARTAGENA</p>
+            </li>
+        </ul>
+        <div class="formulariocontenedor">
+            <h1>CONTACTO</h1>
+            <form class="formulario">
+                <label class="label">Nombres y apellidos: </label>
+                <input class="input" type="text">
+                <label class="label">E-mail: </label>
+                <input class="input"type="text">
+                <label class="label">Mensaje: </label>
+                <input class="input"type="email">
+                <input class="boton"type="submit" value="Enviar">
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
